@@ -1,0 +1,1 @@
+export const logoReactIcon = require('./images/logo/logo-react-icon.png');
