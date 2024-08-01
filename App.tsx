@@ -1,18 +1,16 @@
 import React, { Component } from 'react'
 import { Text, View } from 'react-native'
-import RegisterComponent from './src/components/auth/RegisterComponent'
-import LoginComponent from './src/components/auth/LoginComponent'
-import CVComponent from './src/components/logged/CVComponent'
+import { RegisterComponent } from './app/components/auth/RegisterComponent'
+import { LoginComponent } from './app/components/auth/LoginComponent'
+import { Stack } from 'expo-router'
 
 export class App extends Component {
-  render() {
-    return (
-      // <RegisterComponent></RegisterComponent>
-      // <LoginComponent></LoginComponent>
-      <CVComponent></CVComponent>
-    )
-  }
+    render() {
+        return (
+            // <LoginComponent></LoginComponent>
+            <RegisterComponent></RegisterComponent>
+        )
+    }
 }
 
 export default App
-

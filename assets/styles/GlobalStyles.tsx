@@ -59,10 +59,12 @@ const GlobalStyles = StyleSheet.create({
         fontFamily: 'Sans-serif',
         padding: 10,
         color: 'white',
+        cursor: 'pointer',
     },
     anchorLink: {
         textDecorationLine: 'underline',
         color: '#3FA2F6',
+        cursor: 'pointer',
     }
 });
 
